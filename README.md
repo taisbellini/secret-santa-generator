@@ -7,5 +7,5 @@ It should only receive the names of the family members separeted by Family Group
 ```
 Person1 -> Person2
 ```
-It means _Person2_ is the Secret Santa of _Person2_.
+It means _Person2_ is the Secret Santa gift recipient of _Person1_.
 
