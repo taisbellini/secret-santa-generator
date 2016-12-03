@@ -28,10 +28,8 @@ def parse_file(filename):
 
 def define_constraints(file):
     groups = parse_file(file)
+    return { name: group for group in groups for name in group} 
 
-    for group in groups:
-        for name in group:
-            constraints[name] = group
 
 
 filename = sys.argv[1]
